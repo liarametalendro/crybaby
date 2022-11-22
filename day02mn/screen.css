@@ -1,0 +1,116 @@
+/* "Миний кодын эхлэл" накатоны дасгал хуудаст зориулсан
+Stylesheet */
+/* HTML-Элементийг body гэх нэртэй элементийг зохиомжлох*/
+* { padding: 10; margin: 20; }
+body#startPage {
+    background-color: #b967b5; /* Дэвсгэр өнгө */
+    color: rgb(185, 89, 161); /* Бичгийн өнгө */
+    }
+    /* id="wrapper"-тай div-ийг зохиомжлох*/
+div#wrapper {
+    background-color: rgb(238, 133, 224);
+    padding-top: 10px;
+    color: rgb(179, 117, 117);
+    }
+/* id="wrapper"-тай div-ийг зохиомжлох*/
+div#headsection {
+    background-color: #c291b2a2;
+    color: rgba(24, 51, 43, 0.719);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0;
+    padding-left: 0px;
+}
+div#footsection {
+    padding-top: 10px; /* Хүрээний шугамын доор */
+    border-top: 1px solid #8c8c8c; /* Дээд талын шулуун */
+    margin-top: 20px; /* Шугамын дээд тал */
+    }
+    
+div#headsection #logo{
+    background-color: rgb(173, 159, 228);
+     color: black;
+}
+body {
+    background-color: #b36d93a6; /* Дэвсгэр өнгө */
+    color: white; /* Бичгийн өнгө */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: small; /* Үсгийн хэмжээ */
+    }
+    h1 { font-size: 150%; }
+    h2 { font-size: 100%; }
+    address {
+            text-align: center; /* төвд байрлуулах */
+            font-size: 100%; /* Үлдэснээс арай жижигхэн */
+            font-style: normal; /* Энгийн бичиг, налуу биш */
+            letter-spacing: 2px; /* Үсэг хоорондын зай */
+            line-height: 1.5; /* Мөр хоорондын зай, нэгж өгөөгүй */
+            font-style: italic;
+            ont-weight: bold;
+            
+    }
+        a {
+            text-decoration: none;
+        }
+        a:link {
+            color:rgba(247, 9, 207, 0.993);
+        }
+        a:visited {
+            color:#db25db;
+        }
+        a:hover,
+        a:focus{
+            border-bottom: 1px solid #d900c798;
+        } 
+        a:active {
+            color: white;
+            background-color: #b31eab;
+        }
+        div#textsection a {
+            border-bottom: 1px dotted #ba1beb;
+        }
+        div#textsection a:hover,
+        div#textsection a:focus {
+            border-bottom: 1px solid #4100d9;
+            padding-top: 20px ;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+        div#headsection p span {
+                    color: #181515; 
+        }
+        .infobox {
+            color : black;
+            background-color: #da8cc050;
+            border: 3px solid #ecf7dd;
+        }
+        .galerie{
+            color : black;
+            background-color: greenyellow;
+            border: 3px solid #ac2784;
+        }
+        /* Доод талын зай */
+        ul { 
+            margin-bottom: 3em;
+        }
+        ol { 
+            margin-bottom: 0; 
+        }
+        il {
+             margin-left: 5em; 
+        }
+        div#wrapper {
+            color: black;
+            background-color: white;
+             width: 720px; /* Агуулга хэсгийн өргөн */
+            }
+            div#wrapper {
+                color: black;
+                background-color: rgb(235, 201, 230);
+                width: 1000px;
+                 margin-top: 10px;
+                 margin-right: auto; /* deed tald bairlah zainii hemjee */
+                 margin-bottom: 10px;
+                 margin-left: auto; /* dood tald bairlah zainii hemjee */
+                
